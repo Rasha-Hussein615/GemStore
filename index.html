@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GemStore</title>
+    <style>
+    @keyframes shine {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 200% 0%; }
+ }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="w-full min-h-750 bg-neutral-950">
+    <header class="w-full bg-emerald-950 p-4 flex justify-around items-center shadow-md shadow-amber-400 fixed z-1110">
+        <h1 class="text-4xl font-bold cursor-pointer text-amber-400">GemStore</h1>
+        <nav>
+            <ul class="hidden md:flex space-x-6 ml-20 gap-5 text-emerald-200">
+                <li><a href="#Home" class="hover:text-amber-200">Home</a></li>
+                <li><a href="#Collections" class="hover:text-amber-200">Collections</a></li>
+                <li><a href="#Our" class="hover:text-amber-200">Our Story</a></li>
+                <li><a href="#Shop" class="hover:text-amber-200">Shop</a></li>
+                <li><a href="#Contact" class="hover:text-amber-200">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="w-50 md:w-20 w-40 sm:w-20 bg-amber-400 text-emerald-950 font-bold py-2 px-4 rounded-lg cursor-pointer transition-all duration-300 hover:bg-amber-300 hover:shadow-sm hover:shadow-amber-400/70 hover:scale-105 ">Cart</button>
+    </header>
+    <section class="w-full min-h-screen flex flex-col md:flex-row md:items-center" id="Home">
+        <main class="flex">
+            <div class="mt-45 text-start pl-15 md:pl-10 flex-1 w-full md:w-170 w-full sm:w-170">
+                <h2 class="text-amber-300 font-bold uppercase tracking text-4xl lg:text-3xl">From the Heart of the Cave..<br> <span class="shadow-md text-amber-500 italic">Gemstones</span> Are Born</h2>
+                <p class="text-emerald-100 pt-8">Deep inside the earth, far from noise and light, <br>precious gemstones hide with the patience of years. From the<br> heart of the dark cave emerge emerald, ruby, and diamond</p>
+                <p class="pt-5 text-emerald-200"><i class="fa-regular fa-circle-check"></i>  Rare. Natural. Timeless. — That's GemStore.</p>
+                <button class="w-40 h-15 border-2 mt-10 ml-5 rounded-xl cursor-pointer border-amber-300 bg-amber-300 text-emerald-800 text-xl hover:text-amber-300 hover:bg-transparent transition-all hover:scale-105">Get Start</button>
+                <button class="w-40 h-15 border-2 ml-5 rounded-xl cursor-pointer border-amber-300 text-amber-300 text-xl hover:bg-amber-300 hover:text-emerald-800 transition-all hover:scale-105">Learn More</button>
+            </div>
+            <div class="hidden lg:block">
+    <figure class="relative mt-10 ml-5 lg:mt-35 lg:ml-20"><img src="image/section1.jpg" alt="Gemstones collection" class="rounded-4xl shadow-md shadow-emerald-300 relative z-1 w-full max-w-[500px] lg:max-w-[650px] h-auto object-cover mr-15"></figure>                
+    <div class="hidden lg:flex w-40 h-25 bg-emerald-950 absolute z-5 -mt-15 ml-15 rounded-4xl shadow-emerald-300 shadow-sm">
+        <div class="size-12 border-2 rounded-full mt-5 ml-2 pt-1.5 pl-1 text-3xl text-emerald-500"><i class="fa-solid fa-cart-shopping"></i></div>
+        <p class="pt-4 pl-2 text-xl italic">The Sales<br>+900</p>
+    </div>
+</div>
+        </main>
+    </section><!-- section1 -->
+    <section class="mt-20" id="Collections">
+        <article class="text-start md:text-center sm:text-center">
+            <h2 class="text-amber-300 text-3xl font-bold">Timeless Elegance, Made to Shine</h2>
+            <p class="text-emerald-200 pt-4 ">Handcrafted jewelry made with love, to make you shine</p>
+            <div class="w-48 sm:w-56 mt-5 h-0.5 bg-amber-300 rounded-full bg-gradient-to-r from-amber-200 via-yellow-500 to-amber-200 bg-[length:200%_100%] animate-[shine_2s_linear_infinite] mx-auto"></div>        
+        </article>
+        <div class="container w-full flex flex-col md:flex-row mx-auto px-4 mt-10 justify-around gap-10">
+            <div class="group w-100 min-h-100 border-2 border-amber-200  hover:border-yellow-300 hover:scale-101 transition-all hover:shadow-md hover:shadow-amber-400 rounded-2xl pl-10 ">
+                <div class="size-17 bg-[#1A1A1A] border-2 border-[#D4AF37] text-4xl rounded-2xl mt-10 p-3.5 text-amber-200 group-hover:bg-[#D4AF37] group-hover:text-black group-hover:scale-105 transition-all"><i class="fa-solid fa-gem"></i></div>
+                <h2 class="text-3xl text-[#D4AF37] pt-4 pb-4">Pure Gold 99%</h2>
+                <span class="text-emerald-100 pt-3">Our gold is real and tested, its shine lasts and never fades with time</span>
+                <p class="text-[#F5F0E6] text-sm pt-4"><i class="fa-solid fa-check"></i> Real Gold Guaranteed</p>
+                <p class="text-[#F5F0E6] pt-2"><i class="fa-solid fa-check"></i> Shine Lasts Forever</p>
+                <p class="text-[#F5F0E6] pt-2"><i class="fa-solid fa-check"></i> Quality You Trust</p>
+            </div><!-- div1 -->
+            <div class="group w-100 min-h-100 border-2 border-amber-200  hover:border-yellow-300 hover:scale-101 transition-all hover:shadow-md hover:shadow-amber-400 rounded-2xl pl-10">
+                <div class="size-17 bg-[#1A1A1A] border-2 border-[#D4AF37] text-4xl rounded-2xl mt-10 p-3.5 text-amber-200 group-hover:bg-[#D4AF37] group-hover:text-black group-hover:scale-105 transition-all"><i class="fa-solid fa-hands-clapping"></i></div>
+                <h2 class="text-3xl text-[#D4AF37] pt-4 pb-4">Handmade 100%</h2>
+                <span class="text-emerald-100 pt-3"> Every piece is made by our hands with love and care, to be special and one of a kind</span>
+                <p class="text-[#F5F0E6] text-sm pt-4"><i class="fa-solid fa-check"></i> Made With Love</p>
+                <p class="text-[#F5F0E6] pt-2"><i class="fa-solid fa-check"></i> Perfect Tiny Details</p>
+                <p class="text-[#F5F0E6] pt-2"><i class="fa-solid fa-check"></i> Your Unique Piece</p>
+            </div><!-- div2 -->
+            <div class="group w-100 min-h-100 border-2 border-amber-200 flex-end md:flex-wrap hover:border-yellow-300 hover:scale-101 transition-all hover:shadow-md hover:shadow-amber-400 rounded-2xl pl-10 ">
+                <div class="size-17 bg-[#1A1A1A] border-2 border-[#D4AF37] text-4xl rounded-2xl mt-10 p-3.5 text-amber-200 group-hover:bg-[#D4AF37] group-hover:text-black group-hover:scale-105 transition-all"><i class="fa-solid fa-user-check"></i></div>
+                <h2 class="text-3xl text-[#D4AF37] pt-4 pb-4">+500 Happy Customers</h2>
+                <span class="text-emerald-100 pt-3">More than 500 customers trusted us, and they keep coming back to order again</span>
+                <p class="text-[#F5F0E6] text-sm pt-4"><i class="fa-solid fa-check"></i> Customers Always Return</p>
+                <p class="text-[#F5F0E6] pt-2"><i class="fa-solid fa-check"></i> Trust From Start</p>
+                <p class="text-[#F5F0E6] pt-2"><i class="fa-solid fa-check"></i> Loved By Many</p>
+            </div><!-- div3 -->
+        </div><!-- contaner -->
+    </section><!-- section2-->
+    <section class="section3 w-full lg:h-70 mt-20 lg:mt-32 bg-[url('/image/sec3.jpg')] bg-cover bg-center bg-no-repeat grid grid-cols-2 lg:flex lg:flex-row gap-8 sm:gap-10 lg:gap-25 py-12 lg:py-0 shadow-sm shadow-amber-600" id="Our">
+        <artical class="text-center pt-0 lg:pt-20 lg:ml-25">
+            <h2 class="text-5xl lg:text-6xl font-bold text-[#D4AF37] hover:text-[#FFD700] hover:scale-105 transition-0.5 cursor-pointer">+500</h2>
+            <p class="text-2xl lg:text-3xl text-emerald-200 cursor-pointer">Luxury Designs</p>
+        </artical>
+        <artical class="text-center pt-0 lg:pt-20">
+            <h2 class="text-5xl lg:text-6xl font-bold text-[#D4AF37] hover:text-[#FFD700] hover:scale-105 transition-0.5 cursor-pointer">+1200</h2>
+            <p class="text-2xl lg:text-3xl text-emerald-200 cursor-pointer">Happy Customers</p>
+        </artical>
+        <artical class="text-center pt-0 lg:pt-20">
+            <h2 class="text-5xl lg:text-6xl font-bold text-[#D4AF37] hover:text-[#FFD700] hover:scale-105 transition-0.5 cursor-pointer">+15</h2>
+            <p class="text-2xl lg:text-3xl text-emerald-200 cursor-pointer">Years of Experience</p>
+        </artical>
+        <artical class="text-center pt-0 lg:pt-20">
+            <h2 class="text-5xl lg:text-6xl font-bold text-[#D4AF37] hover:text-[#FFD700] hover:scale-105 transition-0.5 cursor-pointer">100%</h2>
+            <p class="text-2xl lg:text-3xl text-emerald-200 cursor-pointer">Real Gold</p>
+        </artical>
+    </section><!-- section3 -->
+    <section id="Shop" class="px-4 sm:px-6 lg:px-10 py-10">
+        <artical class="text-center space-y-4">
+        <h2 class="font-bold text-amber-300 pt-15 text-3xl sm:text-4xl">Our Collection</h2>
+        <p class="text-lg sm:text-2xl text-emerald-200">Discover our most loved gold pieces </p>
+        </artical>
+        <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6 mt-10">
+            <div class="group relative z-1 border-1 rounded-4xl border-amber-200 text-center hover:shadow-lg hover:shadow-amber-400 duration-400 overflow-hidden">
+                <figure>
+                    <img src="image/card1.jpg" class="rounded-t-4xl h-60 w-full ">
+                    <div class="div1 absolute z-10 rounded-t-4xl h-60 w-full top-0 pt-25 space-x-5 text-3xl flex justify-center opacity-0 group-hover:opacity-100 duration-700">
+                        <div class="size-12 rounded-full border-1 pt-1 bg-amber-100 hover:text-amber-200 hover:bg-black duration-700"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></div>
+                        <div class="size-12 rounded-full border-1 pt-1 bg-amber-100 hover:text-amber-200 hover:bg-black duration-700"><a href="#"><i class="fa-brands fa-threads"></i></a></div>
+                        <div class="size-12 rounded-full border-1 pt-1 bg-amber-100 hover:text-amber-200 hover:bg-black duration-700"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+                    </div><!-- div1 -->
+                    <figcaption class="text-xl sm:text-2xl text-amber-300 font-bold pt-2 cursor-pointer">Gold Cuff Bracelet</figcaption>
+                    <span class="text-gray-300 italic text-xl sm:text-2xl pt-2 block">$1500</span>
+                    <p class="text-base sm:text-xl text-emerald-100 pt-2 pb-4 px-2">Bold gold cuff, modern and elegan</p>
+                </figure>
+            </div><!-- card1 -->
+            <div class="group relative border-1 rounded-4xl border-amber-200 text-center hover:shadow-lg hover:shadow-amber-400 duration-400 overflow-hidden">
+                <figure>
+                    <img src="image/card2.jpg" class="rounded-t-4xl h-60 w-full">
+                    <div class="div2 absolute z-10 rounded-t-4xl h-60 w-full top-0 pt-25 space-x-5 text-3xl flex justify-center opacity-0 group-hover:opacity-100 duration-700">
+                        <div class="size-12 rounded-full border-1 pt-1 bg-amber-100 hover:text-amber-200 hover:bg-black duration-700"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></div>
+                        <div class="size-12 rounded-full border-1 pt-1 bg-amber-100 hover:text-amber-200 hover:bg-black duration-700"><a href="#"><i class="fa-brands fa-threads"></i></a></div>
+                        <div class="size-12 rounded-full border-1 pt-1 bg-amber-100 hover:text-amber-200 hover:bg-black duration-700"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+                    </div><!-- div2 -->
+                    <figcaption class="text-xl sm:text-2xl text-amber-300 font-bold pt-2 cursor-pointer">Gold Rings Set</figcaption>
+                    <span class="text-gray-300 italic text-xl sm:text-2xl pt-2 block">$2000</span>
+                    <p class="text-base sm:text-xl text-emerald-100 pt-2 pb-4 px-2">Complete set of luxury gold rings</p>
+                </figure>
+            </div><!-- card2 -->
+            <div class="group relative border-1 rounded-4xl border-amber-200 text-center hover:shadow-lg hover:shadow-amber-400 duration-400 overflow-hidden">
+                <figure>
+                    <img src="image/card3.jpg" class="rounded-t-4xl h-60 w-full">
+                    <div class="div1 absolute z-10 rounded-t-4xl h-60 w-full top-0 pt-25 space-x-5 text-3xl flex justify-center opacity-0 group-hover:opacity-100 duration-700">
+                        <div class="size-12 rounded-full border-1 pt-1 bg-amber-100 hover:text-amber-200 hover:bg-black duration-700"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></div>
+                        <div class="size-12 rounded-full border-1 pt-1 bg-amber-100 hover:text-amber-200 hover:bg-black duration-700"><a href="#"><i class="fa-brands fa-threads"></i></a></div>
+                        <div class="size-12 rounded-full border-1 pt-1 bg-amber-100 hover:text-amber-200 hover:bg-black duration-700"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+                    </div><!-- div3 -->
+                    <figcaption class="text-xl sm:text-2xl text-amber-300 font-bold pt-2 cursor-pointer">Diamond Necklace</figcaption>
+                    <span class="text-gray-300 italic text-xl sm:text-2xl pt-2 block">$2100</span>
+                    <p class="text-base sm:text-xl text-emerald-100 pt-2 pb-4 px-2">Sparkling diamond necklace</p>
+                </figure>
+            </div><!-- card3 -->
+            <div class="group relative border-1 rounded-4xl border-amber-200 text-center hover:shadow-lg hover:shadow-amber-400 duration-400 overflow-hidden">
+                <figure>
+                    <img src="image/card4.jpg" class="rounded-t-4xl h-60 w-full">
+                    <div class="div1 absolute z-10 rounded-t-4xl h-60 w-full top-0 pt-25 space-x-5 text-3xl flex justify-center opacity-0 group-hover:opacity-100 duration-700">
+                        <div class="size-12 rounded-full border-1 pt-1 bg-amber-100 hover:text-amber-200 hover:bg-black duration-700"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></div>
+                        <div class="size-12 rounded-full border-1 pt-1 bg-amber-100 hover:text-amber-200 hover:bg-black duration-700"><a href="#"><i class="fa-brands fa-threads"></i></a></div>
+                        <div class="size-12 rounded-full border-1 pt-1 bg-amber-100 hover:text-amber-200 hover:bg-black duration-700"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+                    </div><!-- div4 -->
+                    <figcaption class="text-xl sm:text-2xl text-amber-300 font-bold pt-2 cursor-pointer">Diamond Gold Ring</figcaption>
+                    <span class="text-gray-300 italic text-xl sm:text-2xl pt-2 block">$1000</span>
+                    <p class="text-base sm:text-xl text-emerald-100 pt-2 pb-4 px-2">Classic diamond ring, timeless beauty</p>
+                </figure>
+            </div><!-- card4 -->
+        </div><!-- contaner -->
+    </section><!-- section4 -->
+    <footer class="bg-[#1a120b] w-full mt-20 duration-300 overflow-hidden" id="Contact">
+  <div class="flex flex-col lg:flex-row gap-8 justify-center px-5 lg:px-10 py-10">
+    <div class="w-full max-w-[640px] h-fit border rounded-4xl bg-black p-6 sm:p-10 mx-auto lg:mx-0">
+      <h2 class="text-amber-300 font-bold text-2xl">Contact Us</h2>
+      <input type="text" placeholder="your username" class="w-full h-15 text-gray-200 mt-10 rounded-2xl pl-6 outline-1 focus:outline-3 outline-[#d4af6a]">
+      <input type="email" placeholder="Email address" class="w-full h-15 text-gray-200 mt-10 rounded-2xl pl-6 outline-1 focus:outline-3 outline-[#d4af6a]">
+      <textarea placeholder="your massege..." class="w-full h-40 rounded-xl text-white resize-y mt-10 p-5 placeholder:text-gray-500 outline-1 focus:outline-3 outline-[#d4af6a]"></textarea>
+      <a href="#Contact"><button class="w-full h-15 bg-amber-300 mt-5 hover:bg-amber-400 focus:outline-3 outline-amber-500 duration-400 rounded-2xl text-xl font-bold mb-2">Send massage</button></a>
+    </div>
+    <div class="w-full max-w-[640px] mx-auto lg:mx-0">
+      <h2 class="text-2xl font-bold text-amber-300">Contact Information</h2>
+      <div class="space-y-5">
+        <div class="flex mt-10">
+          <div class="size-12 shrink-0 border rounded-lg pt-1 pl-3 text-3xl bg-black text-amber-200"><i class="fa-solid fa-map-pin"></i></div>
+          <artical class="ml-4">
+            <h2 class="text-xl font-bold text-amber-400">Address</h2>
+            <p class="italic text-emerald-100">Gaza,Palestine</p>
+          </artical>
+        </div>
+        <div class="flex">
+          <div class="size-12 shrink-0 border rounded-lg pt-1 pl-2 text-3xl bg-black text-amber-200"><i class="fa-solid fa-phone-volume"></i></div>
+          <artical class="ml-4">
+            <h2 class="text-xl font-bold text-amber-400">Phone</h2>
+            <p class="italic text-emerald-100">+970 555 555 511</p>
+          </artical>
+        </div>
+        <div class="flex">
+          <div class="size-12 shrink-0 border rounded-lg pt-1 pl-1 text-3xl bg-black text-amber-200"><i class="fa-solid fa-envelope-circle-check"></i></div>
+          <artical class="ml-4">
+            <h2 class="text-xl font-bold text-amber-400">Email</h2>
+            <p class="italic text-emerald-100">GemStore@gmail.com</p>
+          </artical>
+        </div>
+      </div>
+      <figure><img src="image/footer.jpg" class="w-full h-60 mt-10 rounded-2xl shadow-amber-200 shadow-sm object-cover"></figure>
+    </div>
+  </div>
+  <hr class="mt-5">
+  <div class="flex flex-col sm:flex-row items-center justify-between gap-3 px-5 sm:px-15 py-4 text-center sm:text-left">
+    <div><p class="text-emerald-200 italic">&copy; 2026 GemStore. Crafted with Love in Gaza, Palestine.</p></div>
+    <div class="space-x-3">
+      <a href="#" class="text-3xl text-amber-200 hover:text-amber-300 hover:scale-105 duration-400 inline-block"><i class="fa-brands fa-square-facebook"></i></a>
+      <a href="#" class="text-3xl text-amber-200 hover:text-amber-300 hover:scale-105 duration-400 inline-block"><i class="fa-brands fa-square-twitter"></i></a>
+      <a href="#" class="text-3xl text-amber-200 hover:text-amber-300 hover:scale-105 duration-400 inline-block"><i class="fa-brands fa-square-google-plus"></i></a>
+      <a href="#" class="text-3xl text-amber-200 hover:text-amber-300 hover:scale-110 duration-400 inline-block"><i class="fa-brands fa-square-whatsapp"></i></a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
